@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    position: absolute;
+}
+::-webkit-scrollbar-thumb {
+    background: #6d6d6d69;
+    border-radius: 5px;
+}
+
+body {
+    width: 100vw;
+    background-color: #131313;
+    overflow-x: hidden;
+}
+
+.title {
+    color: #838383;
+    font-weight: 500;
+}
