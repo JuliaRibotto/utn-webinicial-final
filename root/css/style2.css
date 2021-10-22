@@ -121,7 +121,7 @@ form {
 input {
     height: 30px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.486);;
+    background-color: rgba(0, 0, 0, 0.486);
     border: none;
     padding: 0 20px;
     color: rgb(238, 149, 15);
@@ -148,25 +148,23 @@ input {
 .options {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
     
 }
 .options label {
-    margin-left: 10px;
     color: rgb(185, 185, 185);
+    display: flex;
+    font-size: 13px;
 }
 
 .box {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 30px;
 }
 
-input[type="radio"] {
-    display: none;
-}
-
-/*Style radio*/
 
 textarea {
     max-height: 150px;
