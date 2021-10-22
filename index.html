@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./root/css/style.css">
     <link rel="shortcut icon" href="/root/images/web_favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
     <title>Eterspire</title>
 </head>
 <body>
@@ -15,8 +18,8 @@
             <img class="logo-white" src="./root/images/Website_Logo_White.png" alt="">
             <h1 class="title-cell">Eterspire</h1>
             <ol class="menu">
-                <li><a class="link" href="#sub-section">Home</a></li>
-                <li><a class="link" href="#about-section">About</a></li>
+                <li><a class="link" href="#sub-section">// Home</a></li>
+                <li><a class="link" href="#about-section">// Contact us</a></li>
             </ol>
         </nav>
 
@@ -32,16 +35,19 @@
         </section>
         <section class="options">
                 <a class="card" href="#info-section">
-                    <img class="logo" src="./root/images/learn.png" alt="learn about the game">
+                    <img class="logo" src="./root/images/learn.png" alt="Light bulb icon">
                     <h2 class="content">Learn about Eterspire</h2>
+                    <h2 class="alt-content">Learn</h2>
                 </a>
-                <a class="card" href="./root/pages/index2.html">
-                    <img class="logo" src="./root/images/build.png" alt="learn about the game">
+                <a class="card" href="./root/pages/index2.html" target="blank">
+                    <img class="logo" src="./root/images/build.png" alt="Community icon">
                     <h2 class="content">Help build a better experience</h2>
+                    <h2 class="alt-content">Collab</h2>
                 </a>
                 <a class="card" href="#">
-                    <img class="logo" src="./root/images/member.png" alt="learn about the game">
+                    <img class="logo" src="./root/images/member.png" alt="Helmet icon">
                     <h2 class="content">Become a member</h2>
+                    <h2 class="alt-content">Member</h2>
                 </a>
         </section>
     </header>
@@ -49,12 +55,12 @@
     <div class="banner"></div>
 
     <main>
-        <div class="info" id="info-section">
+        <div class="info">
             <h2 class="section-title">News</h2>
             <section class="news">
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_10_11.png" alt="">
+                        <img src="./root/images/news_2021_10_11.png" alt="Golden armed forest guardian">
                     </div>
                         
                     <h2 class="title-news">Eterspire beta III</h2>
@@ -69,7 +75,7 @@
 
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_10_01.png" alt="">
+                        <img src="./root/images/news_2021_10_01.png" alt="Pumpkin headed character">
                     </div>
 
                         <h2 class="title-news">Halloween Event</h2>
@@ -85,7 +91,7 @@
 
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_09_29.png" alt="">
+                        <img src="./root/images/news_2021_09_29.png" alt="Ice warrior at the beach">
                     </div>
 
                         <h2 class="title-news">Multicombat and Swimming Ice Warriors</h2>
@@ -101,7 +107,7 @@
 
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_09_16.png" alt="">
+                        <img src="./root/images/news_2021_09_16.png" alt="Snow lanscape">
                     </div>
                     <h2  class="title-news">Snow Update</h2>
                     <a class="preview" href="">
@@ -115,7 +121,7 @@
 
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_09_10.png" alt="">
+                        <img src="./root/images/news_2021_09_10.png" alt="Spirit deer and multiple capes">
                     </div>
                     
                     <h2 class="title-news">Bugfixes, Mob Healing and Patron Capes</h2>
@@ -131,7 +137,7 @@
 
                 <div class="article">
                     <div class="img-news">
-                        <img src="./root/images/news_2021_09_07.png" alt="">
+                        <img src="./root/images/news_2021_09_07.png" alt="Eterspire and patreon logo">
                     </div>
                         <h2 class="title-news">Eterspire Patreon</h2>
 
@@ -173,29 +179,53 @@
                 </div>
             </section>
 
-            
-            <h2 class="section-title">Knowledge</h2>
-            <section class="info2">
+            <div id="info-section"></div>
+            <h2 class="section-title">Knowledge base</h2>
+            <section class="info2" >
                 <ol class="info2-kn">
-                    <li>What is Eterspire?</li>
-                    <li>Rules</li>
-                    <li>The Eterspire Wiki</li>
-                    <li>Highscores</li>
-                    <li>Screenshot Gallery</li>
-                </ol>
-                <div class="info2-soc">
-                    <div>
-                       <img src="./root/images/reddit.png" alt="">
-                       <p>Reddit</p>
+                    <li class="kn-item" id="what">What is Eterspire?</li>
+                        <div id="articleA" class="info2-kn-article">
+                            <span>The game is <b>100% browser-based</b>. It's free to play with an optional Membership Subscription. You don't have to download anything to play.</span> 
+                            <br>
+                            <img class="img-article" src="./root/images/logo_web.png" alt="Eterspire official logo">
+                            <br>
+                            <span><i><b>What can you do in Eterspire?</b></i></span>
+                            <br>
+                            Anything you want! Explore an open-world comprised of different maps filled with monsters and loot. Meet new friends, customize your character, cook, fish, go on adventures, complete quests, collect dozens of different items, and then come back for more! The game is regularly updated with new content and features.
+                        </div>
+                    <li class="kn-item" id="rules">Rules</li>
+                    <div id="articleB" class="info2-kn-article">
+                        <ol class="rules">
+                            <li class="rule-item"> <span class="num">1</span> Be nice to others. That's the main rule here.</li>
+                            <li class="rule-item">  <span class="num">2</span> Hacking the game, botting the game, abusing bugs, macroing, mistreating other players, being discriminatory (including, but not limited to, being racist), spamming the chat, creating a character with an offensive name, etc. are all considered against the rules and will be punished by muting and/or ban.</li>
+                            <li class="rule-item">  <span class="num">3</span> You must be over 13 years old to play Eterspire.</li>
+                            <li class="rule-item">  <span class="num">4</span> If you believe you are doing something wrong, then you probably are.</li>
+                            <li class="rule-item">  <span class="num">5</span> Of course, these rules are highly subjective. Interpretation of these rules is at the discretion of the GMs.</li>
+                            <div class="notice"> <span class="num">*</span>(If you have any questions regarding the rules, please ask in any of the Eterspire community sites. We'll be more than happy to address your concerns.)</div>
+
+                        </ol>
                     </div>
-                    <div>
-                        <img src="./root/images/twitter.png" alt="">
+                    <li class="kn-item" >The Eterspire Wiki</li>
+                    <li class="kn-item" >Highscores</li>
+                    <li id="gallery" class="kn-item" >Screenshot Gallery</li>
+                    <div class="slider">
+
+                    </div>
+                </ol>
+                
+                <div class="info2-soc">
+                    <a class="icon-soc" href="https://www.reddit.com/r/Eterspire/" target="blank">
+                       <img src="./root/images/reddit.png" alt="Reddit logo">
+                       <p>Reddit</p>
+                    </a>
+                    <a class="icon-soc" href="https://twitter.com/martulartu" target="blank2">
+                        <img src="./root/images/twitter.png" alt="Twitter logo">
                         <p>Twitter</p>
-                     </div>
-                     <div>
-                        <img src="./root/images/Discord.png" alt="">
+                    </a>
+                     <a class="icon-soc" href="https://discord.com/invite/6zVfuAYctU" target="blank3">
+                        <img src="./root/images/Discord.png" alt="Discord logo">
                         <p>Discord</p>
-                     </div>                    
+                     </a>                    
                 </div>
             </section>
         </div>
@@ -203,7 +233,7 @@
 
     <section class="about" id="about-section">
         <div class="container">
-            <img class="img-about" src="./root/images/lartu.jpg" alt="">
+            <img class="img-about" src="./root/images/lartu.jpg" alt="Lartu's avatar">
             <div class="text-about">
                 <h1>Lartu</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -219,7 +249,7 @@
             </div>
         </div>
         <div class="container">
-            <img class="img-about" src="./root/images/tejo.jpg" alt="">
+            <img class="img-about" src="./root/images/tejo.jpg" alt="Tejo's avatar">
             <div class="text-about">
                 <h1>Tejo</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -227,14 +257,21 @@
             </div>
             <div class="soc-about">
                 <a href="https://twitter.com/tejo240" target="blank">
-                    <img src="./root/images/twitter2.png" alt="Lartu's twitter">
+                    <img src="./root/images/twitter2.png" alt="Tejo's twitter">
                 </a>
             </div>
         </div>
     </section>
 
+    <div class="go-top-container">
+      <a class="go-top" href="#"></a>
+    </div>
+    
+
     <footer>
         Copyright © Lartu and Tejo, 2020 - 2021. All rights reserved.
     </footer>
+
+    <script src="./root/scripts/app.js"></script>
 </body>
 </html>
