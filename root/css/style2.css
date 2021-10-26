@@ -24,7 +24,7 @@ body {
 .container {
     width: 100vw;
     height: 93vh;
-    background-image: url(/root/images/banner-about.png);
+    background-image: url(../images/banner-about.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

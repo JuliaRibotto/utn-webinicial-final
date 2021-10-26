@@ -362,7 +362,7 @@ body {
     justify-self: center;
     justify-content: space-evenly;
     box-shadow: inset -10px 0px 15px rgb(0, 0, 0);
-    background-image: url(/root/images/banner-about.png);
+    background-image: url(../images/banner-about.png);
     background-size: cover;
 }
 .container {
